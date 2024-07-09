@@ -13,6 +13,8 @@ fun main(){
 
 fun printDouble(a:Double){
     println(a)
+    Double.NaN
+    val tesitng = 1U
 }
 
 fun nullable(){
