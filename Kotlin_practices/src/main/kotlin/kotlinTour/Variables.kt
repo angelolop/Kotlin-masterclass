@@ -4,6 +4,7 @@ fun main(){
     println("Hello, world!")
     variables()
     stringTemplates()
+    describe()
 }
 
 fun variables(){
@@ -20,4 +21,11 @@ fun stringTemplates(){
     println("There are $customers customers")
 
     println("There are ${customers + 1} customers")
+}
+
+fun describe():Int {
+    for (b in 10..-10 step 2) {
+        println(b)
+    }
+    if (1+1 ==2) return 2 else return 3
 }
