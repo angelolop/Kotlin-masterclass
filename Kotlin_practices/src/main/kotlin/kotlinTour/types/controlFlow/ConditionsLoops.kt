@@ -34,3 +34,15 @@ fun whenInline(a:Bit): Unit = when (a) {
     Bit.ONE -> println("one")
     Bit.ZERO -> println("zero")
 }
+
+fun whenRange(a:Any) {
+    when (a) {
+        1..10 -> println("1")
+        10..20 -> println("in 10")
+    }
+}
+
+fun whenType(b:Any) = when(b) {
+    is String -> println("String")
+    else -> println("not a string")
+}
